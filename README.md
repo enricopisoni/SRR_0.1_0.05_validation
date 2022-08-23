@@ -1,4 +1,4 @@
-# Validation for the Source Receptor Relationships (SRR), at 0.1 x 0.05
+# Validation for the Source Receptor Relationships (SRR) at 0.1 x 0.05 deg resolution
 
 This directory contains few validation results for the SHERPA SRR, developed in June 2022, at 0.1 x 0.05 spatial resolution.
 In particular, the 2 subdirectories refer to PM2.5 and NO2 validation.
