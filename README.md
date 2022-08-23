@@ -6,7 +6,7 @@ Validation runs refers to
 
 * EUresults_scatter.png. Validation scenarios refers to reductions of NOx (scenario # 1 in the scatterplots), VOC (scenario # 2), NH3 (3), PPM (4), SO2 (5), all pollutant together (6), traffic sector reduction (10), residential sector reduction (11), industry sector reduction (12)
 * DEresults_scatter.png. The validation scenario refers to a case where all German emissions (all pollutants) are reduced
-* REG*.png and LOC*.png refer to regional and local validation scenarios.
+* REG*.png and LOC*.png refer to regional and local validation scenarios. The filename specifies the name of cities to which the scatter refers to.
 
 For more details, please refer to the following publications:
 1.   Design and implementation of a new module to evaluate the cost of air pollutant abatement measures (2022) Journal of Environmental Management, Volume 317, 115486 ( Bessagnet, B., Pisoni, E., Thunis, P., Mascherpa, A. )
