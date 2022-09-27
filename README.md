@@ -9,9 +9,9 @@ The filenames in the 2 subdirectories define the 'type of analysis', in particul
 
 In terms of validation 'domains and scenarios', below the filename definitions:
 
-* 'EUresults_{biasP_map/biasP_violin/scatter}.png'. Validation scenarios refers to reductions for the whole domain for NOx (scenario # 1 in the scatterplots), VOC (scenario # 2), NH3 (3), PPM (4), SO2 (5), all pollutant together (6), traffic sector reduction (10), residential sector reduction (11), industry sector reduction (12);
-* 'DEresults_{biasP_map/biasP_violin/scatter}.png'. The validation scenario refers to a case where all German emissions (all pollutants) are reduced;
-* 'REG*{biasP_map/biasP_violin/scatter}.png' and 'LOC*{biasP_map/biasP_violin/scatter}.png' refer to regional and local validation scenarios. The filenames here (see 'pm25' and 'no2' directories) specify the name of cities to which the scatter refers to.
+* 'EUresults_{scatter/biasP_violin/biasP_map}.png'. Validation scenarios refers to reductions for the whole domain for NOx (scenario # 1 in the scatterplots), VOC (scenario # 2), NH3 (3), PPM (4), SO2 (5), all pollutant together (6), traffic sector reduction (10), residential sector reduction (11), industry sector reduction (12);
+* 'DEresults_{scatter/biasP_violin/biasP_map}.png'. The validation scenario refers to a case where all German emissions (all pollutants) are reduced;
+* 'REG*{scatter/biasP_violin/biasP_map}.png' and 'LOC*{biasP_map/biasP_violin/scatter}.png' refer to regional and local validation scenarios. The filenames here (see 'pm25' and 'no2' directories) specify the name of cities to which the scatter refers to.
 
 For more details, please refer to the following publications:
 1.   Design and implementation of a new module to evaluate the cost of air pollutant abatement measures (2022) Journal of Environmental Management, Volume 317, 115486 ( Bessagnet, B., Pisoni, E., Thunis, P., Mascherpa, A. )
