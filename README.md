@@ -5,9 +5,9 @@ In particular, the 2 subdirectories refer to PM2.5 and NO2 validation.
 
 Validation is shown comparing EMEP and SHERPA delta concentrations (yearly averages by cell) through scatter plots (each point compares the deltas between basecase and scenario, for the 2 models), violin plots (showing the percentage error distribution between the 2 models) and maps (showing the percentage error maps). 
 
-The filenames in the 2 subdirectories define the type of analysis, in particular using at the end of the filename the word '_scatter' (for scatter plots), '_biasP_violin' (for violin plots) and '_biasP_map' (for maps).
+The filenames in the 2 subdirectories define the 'type of analysis', in particular using at the end of the filename the word '_scatter' (for scatter plots), '_biasP_violin' (for violin plots) and '_biasP_map' (for maps).
 
-In terms of validation domains and scenarios, below the filename definitions:
+In terms of validation 'domains and scenarios', below the filename definitions:
 
 * 'EUresults_{biasP_map/biasP_violin/scatter}.png'. Validation scenarios refers to reductions for the whole domain for NOx (scenario # 1 in the scatterplots), VOC (scenario # 2), NH3 (3), PPM (4), SO2 (5), all pollutant together (6), traffic sector reduction (10), residential sector reduction (11), industry sector reduction (12);
 * 'DEresults_{biasP_map/biasP_violin/scatter}.png'. The validation scenario refers to a case where all German emissions (all pollutants) are reduced;
