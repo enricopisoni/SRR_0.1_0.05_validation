@@ -2,11 +2,14 @@
 
 This directory contains validation results for the SHERPA SRR, developed in June 2022, at 0.1 x 0.05 spatial resolution.
 In particular, the 2 subdirectories refer to PM2.5 and NO2 validation.
-Validation runs refers to
 
-* 'EUresults_scatter.png'. Validation scenarios refers to reductions for the whole domain for NOx (scenario # 1 in the scatterplots), VOC (scenario # 2), NH3 (3), PPM (4), SO2 (5), all pollutant together (6), traffic sector reduction (10), residential sector reduction (11), industry sector reduction (12);
-* 'DEresults_scatter.png'. The validation scenario refers to a case where all German emissions (all pollutants) are reduced;
-* 'REG*.png' and 'LOC*.png' refer to regional and local validation scenarios. The filenames here (see 'pm25' and 'no2' directories) specify the name of cities to which the scatter refers to.
+Validation is shown comparing EMEP and SHERPA, through scatter plots (each point compares the deltas between basecase and scenario, for the 2 models), violin plots (showing the percentage error bias distribution) and maps (showing the percentage error bias maps). The filejnames contain the type of analysis, in particular containing at the end of the filename the word '_scatter' (for scatter plots), '_biasP_violin' (for violin plots) and '_biasP_vmap' (for maps).
+
+In terms of validation domains and scenarios, below the filename definitions:
+
+* 'EUresults_{biasP_map/biasP_violin/scatter}.png'. Validation scenarios refers to reductions for the whole domain for NOx (scenario # 1 in the scatterplots), VOC (scenario # 2), NH3 (3), PPM (4), SO2 (5), all pollutant together (6), traffic sector reduction (10), residential sector reduction (11), industry sector reduction (12);
+* 'DEresults_{biasP_map/biasP_violin/scatter}.png'. The validation scenario refers to a case where all German emissions (all pollutants) are reduced;
+* 'REG*{biasP_map/biasP_violin/scatter}.png' and 'LOC*{biasP_map/biasP_violin/scatter}.png' refer to regional and local validation scenarios. The filenames here (see 'pm25' and 'no2' directories) specify the name of cities to which the scatter refers to.
 
 For more details, please refer to the following publications:
 1.   Design and implementation of a new module to evaluate the cost of air pollutant abatement measures (2022) Journal of Environmental Management, Volume 317, 115486 ( Bessagnet, B., Pisoni, E., Thunis, P., Mascherpa, A. )
