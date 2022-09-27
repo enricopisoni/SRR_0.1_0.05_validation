@@ -5,7 +5,7 @@ In particular, the 2 subdirectories refer to PM2.5 and NO2 validation.
 
 Validation is shown comparing EMEP and SHERPA delta concentrations (yearly averages by cell) through scatter plots (each point compares the deltas between basecase and scenario, for the 2 models), violin plots (showing the percentage error distribution between the 2 models) and maps (showing the percentage error maps). 
 
-The filenames in the 2 subdirectories define the type of analysis, in particular containing at the end of the filename the word '_scatter' (for scatter plots), '_biasP_violin' (for violin plots) and '_biasP_vmap' (for maps).
+The filenames in the 2 subdirectories define the type of analysis, in particular using at the end of the filename the word '_scatter' (for scatter plots), '_biasP_violin' (for violin plots) and '_biasP_vmap' (for maps).
 
 In terms of validation domains and scenarios, below the filename definitions:
 
